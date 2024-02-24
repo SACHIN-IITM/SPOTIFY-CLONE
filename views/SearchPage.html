@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="./CSS/SearchStyle.css" >
+    <link rel="icon" href="./logo.png" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="body">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="" >Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="" >Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-options" class="nav-option">
+                        <img src="ASSETS/library_icon.png">
+                        <a href="#" >Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy , we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="main">
+            <div class="view-container">
+                <div class="container-search">
+                    <div class="sticky-nav">
+                        <div class="sticky-nav-icons">
+                            <img src="ASSETS/backward_icon.png" class="blink">
+                            <img src="ASSETS/forward_icon.png" class="hide blink">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2 " type="search" placeholder="What do you want to listen today?" aria-label="Search">
+                            </form>
+                        </div>
+                        <div class="sticky-nav-options">
+                            <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>install apps</button>
+                            <i class="fa-regular fa-user nav-item"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="container-nav">
+                    <div class="nav-btn">All</div>
+                    <div class="nav-btn">Playlists</div>
+                    <div class="nav-btn">Songs</div>
+                    <div class="nav-btn">Albums</div>
+                    <div class="nav-btn">Artists </div>
+                    <div class="nav-btn">Podcasts & Shows</div>
+                    <div class="nav-btn">Profiles</div>
+                    <div class="nav-btn">Generes & Moods</div>
+                </div>
+            </div>
+            <div class="view-scroll">
+                <div class="scroll-head">
+                    <h2>Recent searches</h2>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="ASSETS/card2img.jpeg" class="card-img2">
+                        <p class="card-title">Mahiye Jinna Sohna</p>
+                        <p class="card-info">Darshan Raval</p>
+                    </div>
+                    <div class="card">
+                        <img src="ASSETS/card4img.jpeg" class="card-img2">
+                        <p class="card-title">Naa Ready (From "Leo")</p>
+                        <p class="card-info">Anirudh Ravichander,Asal Kolaar,Thalapathy Vijay</p>
+                    </div>
+                </div>
+                <div class="scroll-head">
+                    <h2>Browse all</h2>
+                </div>
+                <div class="card-container">
+                    <div class="pod-card crd1"></div>
+                    <div class="pod-card crd2"></div>
+                    <div class="pod-card crd3"></div>
+                    <div class="pod-card crd4"></div>
+                    <div class="pod-card crd5"></div>
+                    <div class="pod-card crd6"></div>
+                    <div class="footer">
+                        <div class="line">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="displaybox">
+            <div class="box-nav">
+                <div class="sname">
+                    <h3>Mahiye Jinna Sohna</h3>
+                </div>
+                <div class="sicon">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <img src="ASSETS/card2img.jpeg" class="card-img">
+            <div class="box-info">
+                <div class="album-controls">
+                    <div class="album-content2">
+                        
+                        <p class="album-par1">Mahiye Jinna Sohna</p>
+                        <p class="album-par2">Darshan Raval</p>
+                    </div>
+                    <div class="album-content3">
+                        <img src="ASSETS/album_icon1.png" class="album-icon2">
+                        <img src="ASSETS/album_icon2.png" class="album-icon2">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box-card">
+                <div class="boxc">
+                    <div >
+                        <h4>Next in queue</h4>
+                    </div>
+                    <div class="siconc">
+                       <h5>Open queue</h5>
+                    </div>
+                </div>
+                <div class="album-controlsc">
+                    <span class="material-symbols-outlined">
+                        music_note
+                    </span>
+                    <i class="fa-solid fa-play material-symbols-outlined1"></i>
+                    <div class="album-content1">
+                        <img src="ASSETS/card4img.jpeg" class="album-icon1">
+                    </div>
+                    <div class="album-content2c">
+                        <p class="album-par1">Naa Ready (From...)</p>
+                        <p class="album-par2">Anirudh Ravichander...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="playbar">
+            <div class="music-player">
+                <div class="album">
+                    <div class="album-controls">
+                        <div class="album-content1">
+                            <img src="ASSETS/card2img.jpeg" class="album-icon1">
+                        </div>
+                        <div class="album-content2">
+                            
+                            <p class="album-par1">Mahiye Jinna Sohna</p>
+                            <p class="album-par2">Darshan Raval</p>
+                        </div>
+                        <div class="album-content3">
+                            <img src="ASSETS/album_icon1.png" class="album-icon2">
+                        <img src="ASSETS/album_icon2.png" class="album-icon2">
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="player">
+                    <div class="player-controls">
+                        <img src="ASSETS/player_icon1.png" class="player-control-icon">
+                        <img src="ASSETS/player_icon2.png" class="player-control-icon">
+                        <img src="ASSETS/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 1.75rem;">
+                        <img src="ASSETS/player_icon4.png" class="player-control-icon">
+                        <img src="ASSETS/player_icon5.png" class="player-control-icon">
+                    </div>
+                    <div class="playback-bar">
+                        <span class="curr-time">00:00</span>
+                        <input type="range" min="0" max="100" class="progress-bar" step="1">
+                        <span class="tot-time">3:33</span>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div class="control-bar">
+                        <img src="ASSETS/controls_icon1.png" class="control-icons">
+                        <img src="ASSETS/controls_icon2.png" class="control-icons">
+                        <img src="ASSETS/controls_icon3.png" class="control-icons">
+                        <img src="ASSETS/controls_icon4.png" class="control-icons">
+                        <img src="ASSETS/controls_icon5.png" class="control-icons">
+                        <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+</body>
+</html>
